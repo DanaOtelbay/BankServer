@@ -1,9 +1,9 @@
-package com.example.bankserver.controller;
+package com.example.bankserver.controller.authController;
 
 import com.example.bankserver.domain.auth.AuthenticationRequest;
 import com.example.bankserver.domain.auth.AuthenticationResponse;
 import com.example.bankserver.domain.auth.RegisterRequest;
-import com.example.bankserver.service.AuthenticationService;
+import com.example.bankserver.service.authService.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

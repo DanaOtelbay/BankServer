@@ -1,4 +1,4 @@
-package com.example.bankserver.service;
+package com.example.bankserver.service.authService;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

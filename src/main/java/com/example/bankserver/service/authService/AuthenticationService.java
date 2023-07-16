@@ -1,4 +1,4 @@
-package com.example.bankserver.service;
+package com.example.bankserver.service.authService;
 
 import com.example.bankserver.constants.Role;
 import com.example.bankserver.domain.auth.AuthenticationRequest;
