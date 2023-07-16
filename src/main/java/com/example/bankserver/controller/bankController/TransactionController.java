@@ -1,7 +1,7 @@
-package com.example.bankserver.controller;
+package com.example.bankserver.controller.bankController;
 
 import com.example.bankserver.domain.dto.TransactionDTO;
-import com.example.bankserver.service.TransactionService;
+import com.example.bankserver.service.bankServer.TransactionService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

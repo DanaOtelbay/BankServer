@@ -1,4 +1,4 @@
-package com.example.bankserver.service;
+package com.example.bankserver.service.bankServer;
 
 import com.example.bankserver.customException.InsufficientBalanceException;
 import com.example.bankserver.domain.dto.TransactionDTO;

@@ -7,13 +7,11 @@ import com.example.bankserver.domain.dto.TransactionDTO;
 import com.example.bankserver.domain.model.Account;
 import com.example.bankserver.repository.AccountRepository;
 import com.example.bankserver.repository.TransactionRepository;
-import com.example.bankserver.service.TransactionService;
-import org.junit.jupiter.api.AfterEach;
+import com.example.bankserver.service.bankServer.TransactionService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 import java.time.LocalDateTime;

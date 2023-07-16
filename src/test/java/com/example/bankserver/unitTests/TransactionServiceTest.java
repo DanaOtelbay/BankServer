@@ -9,7 +9,7 @@ import com.example.bankserver.domain.model.Account;
 import com.example.bankserver.domain.model.Transaction;
 import com.example.bankserver.repository.AccountRepository;
 import com.example.bankserver.repository.TransactionRepository;
-import com.example.bankserver.service.TransactionService;
+import com.example.bankserver.service.bankServer.TransactionService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

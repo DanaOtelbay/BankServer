@@ -9,7 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.example.bankserver.repository.AccountRepository;
-import com.example.bankserver.service.AccountService;
+import com.example.bankserver.service.bankServer.AccountService;
 
 import java.util.Optional;
 

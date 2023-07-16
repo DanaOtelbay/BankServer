@@ -1,9 +1,7 @@
-package com.example.bankserver.controller;
+package com.example.bankserver.controller.bankController;
 
-import com.example.bankserver.customException.InsufficientBalanceException;
 import com.example.bankserver.domain.dto.AccountDTO;
-import com.example.bankserver.domain.model.Account;
-import com.example.bankserver.service.AccountService;
+import com.example.bankserver.service.bankServer.AccountService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

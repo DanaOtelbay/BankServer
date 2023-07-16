@@ -5,13 +5,11 @@ import static org.junit.jupiter.api.Assertions.*;
 import com.example.bankserver.domain.dto.AccountDTO;
 import com.example.bankserver.domain.model.Account;
 import com.example.bankserver.repository.AccountRepository;
-import com.example.bankserver.service.AccountService;
-import org.junit.jupiter.api.AfterEach;
+import com.example.bankserver.service.bankServer.AccountService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 import java.util.List;
